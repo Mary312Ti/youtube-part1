@@ -93,7 +93,7 @@
                 Sign in
             </button>
     </header>
-    <aside class="xl:hidden 2xl:hidden lg:block max-h-screen overflow-auto float-left">
+    <aside class="hidden md:block xl:hidden max-h-screen overflow-hidden float-left">
         <section class="">
             <ul>
                 <!---->
@@ -155,7 +155,7 @@
         </section>
     </aside>
     <!--Aside-big-->
-    <aside class="xl:block 2xl:block lg:hidden w-64 max-h-screen overflow-auto float-left">
+    <aside class="hidden xl:block w-64 max-h-screen overflow-auto float-left">
         <section class="py-2 border-b">
             <ul>
                 <li rounded-3xl>
@@ -457,8 +457,9 @@
 
         </div>
     </section>
-    <main class="grid grid-cols-4 gap-4 mt-20 px-8">
-        <div class="relative">
+    <main class="md:ml-24 xl:ml-24 mt-20 px-8">
+        <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 max-w-screen-2xl m-auto">
+          <div class="relative">
             <a class="mb-7 group" href="#">
                 <img class="rounded-lg  z-0 hover:rounded-none" src="http://placekitten.com/620/400" alt="">
                 <span
@@ -889,7 +890,9 @@
                     </button>
                 </div>
             </a>
+        </div>  
         </div>
+        
         
     </main>
 </body>
