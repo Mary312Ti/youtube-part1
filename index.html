@@ -9,7 +9,7 @@
   </head>
 
   <body class="font-sans">
-    <header class="flex justify-between bg-white sticky top-0 z-10">
+    <header class="flex justify-between bg-white sticky top-0 z-50">
       <div class="lg:w-1/4 xl:w-64 flex">
         <div class="flex items-center pl-4">
           <button class="pl-2 pr-6">
@@ -121,7 +121,7 @@
         </button>
       </div>
       <div
-        class="mt-2 z-20 sm:m-0 sm:space-x-8 flex items-center justify-end lg:w-1/4 overflow-hidden pr-4 px-4"
+        class="mt-2 z-20 sm:m-0 sm:space-x-8 flex items-center justify-end lg:w-1/4 pr-4 px-4"
       >
         <button class="sm:hidden px-6 py-2 text-gray-600">
           <svg
@@ -156,8 +156,195 @@
               d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z"
             />
           </svg>
-          <div class="group-hover:opacity-100 absolute top-9 right-0 w-72 bg-white">
+          <div
+            class="z-50 visible opacity-0 group-hover:opacity-100 absolute top-9 right-0 sm:left-0 bg-white bg-opacity-95 w-56 border border-t-0"
+          >
+            <section class="py-2 border-b">
+              <ul>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center px-3 py-2 text-sm hover:bg-gray-100"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"
+                      />
+                    </svg>
 
+                    <span>Your data in youtube</span>
+                  </a>
+                </li>
+              </ul>
+            </section>
+            <section class="py-2 border-b">
+              <ul>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center px-3 py-2 text-sm hover:bg-gray-100"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"
+                      />
+                    </svg>
+
+                    <span>YouTube Music</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center px-3 py-2 text-sm hover:bg-gray-100"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802"
+                      />
+                    </svg>
+
+                    <span>YouTube Music</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center px-3 py-2 text-sm hover:bg-gray-100"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"
+                      />
+                    </svg>
+
+                    <span>YouTube Music</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center px-3 py-2 text-sm hover:bg-gray-100"
+                  >
+                    <svg
+                      width="6"
+                      height="6"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10 14H14M6 14H7M17 12H18M6 12H7M9 12H10M11.5 12H12.5M14 12H15M17 14H18M17 10H18M14 10H15M11.5 10H12.5M9 10H10M6 10H7M5 8H19C19.5523 8 20 8.44772 20 9V15C20 15.5523 19.5523 16 19 16H5C4.44772 16 4 15.5523 4 15V9C4 8.44772 4.44772 8 5 8Z"
+                        stroke="#464455"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <span>YouTube Music</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center px-3 py-2 text-sm hover:bg-gray-100"
+                  >
+                    <svg
+                      class="w-6 h-6 mr-3 text-red-500"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                    <span>YouTube Kids</span>
+                  </a>
+                </li>
+              </ul>
+            </section>
+            <section class="py-2 border-b">
+              <ul>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center px-3 py-2 text-sm hover:bg-gray-100"
+                  >
+                    <svg
+                      class="w-6 h-6 mr-3 text-red-500"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                    <span>Creator Academy</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center px-3 py-2 text-sm hover:bg-gray-100"
+                  >
+                    <svg
+                      class="w-6 h-6 mr-3 text-red-500"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                    <span>YouTube for Artists</span>
+                  </a>
+                </li>
+              </ul>
+            </section>
           </div>
         </button>
         <button
@@ -183,9 +370,7 @@
       </div>
     </header>
     <!-- aside-small -->
-    <aside
-      class="hidden md:block xl:hidden max-h-screen overflow-hidden float-left"
-    >
+    <aside class="hidden md:block xl:hidden max-h-screen overflow-hidden fixed">
       <section class="">
         <ul>
           <!---->
@@ -269,7 +454,7 @@
       </section>
     </aside>
     <!--Aside-big-->
-    <aside class="hidden xl:block w-64 max-h-screen overflow-auto float-left">
+    <aside class="hidden xl:block w-64 max-h-screen overflow-auto fixed">
       <section class="py-2 border-b">
         <ul>
           <li rounded-3xl>
@@ -617,27 +802,27 @@
       </section>
     </aside>
     <!-- aside-mobile -->
-    <div class=" hidden fixed inset-0 bg-black bg-opacity-50 z-30">
+    <div class="hidden fixed inset-0 bg-black bg-opacity-50 z-30">
       <aside class="overflow-auto w-64 max-h-screen bg-white">
         <div class="flex py-4 pl-4 sticky top-0 bg-white">
-            <button class="pl-2 pr-6">
-                <svg
-                  class="w-6 h-6"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="w-6 h-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                  />
-                </svg>
-              </button>
-           <a href="/">
+          <button class="pl-2 pr-6">
+            <svg
+              class="w-6 h-6"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+          <a href="/">
             <svg
               class="w-20"
               viewBox="0 0 90 20"
@@ -680,9 +865,9 @@
                 </g>
               </g>
             </svg>
-          </a> 
+          </a>
         </div>
-        
+
         <section class="py-2 border-b">
           <ul>
             <li rounded-3xl>
@@ -1032,7 +1217,10 @@
         </section>
       </aside>
     </div>
-    <section class="inline-flex fixed bg-white w-screen z-10 pl-4">
+    <!-- category -->
+    <section
+      class="flex fixed bg-white w-screen md:ml-24 xl:ml-64 xs:top-14 z-20 pl-4"
+    >
       <div class="max-w-screen-2xl m-auto">
         <div
           class="text-sm py-5 pl-4 bg-white flex space-x-3 overflow-auto whitespace-nowrap"
@@ -1120,19 +1308,18 @@
         </div>
       </div>
     </section>
-    <main class="md:ml-24 xl:ml-24 mt-20 px-8">
+    <main class="md:ml-24 xl:ml-64 pt-32 px-5 pb-5">
       <div
         class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 max-w-screen-2xl m-auto"
       >
-        <div class="relative">
-          <a class="mb-7 group" href="#">
+        <a href="#" class="mb-7 group">
+          <div class="relative">
             <img
-              class="rounded-lg z-0 hover:rounded-none"
-              src="http://placekitten.com/620/400"
-              alt=""
+              class="rounded-lg hover:rounded-none"
+              src="http://placekitten.com/720/404"
             />
             <span
-              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-lg m-1 p-1"
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-md m-1 p-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1140,7 +1327,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-5 h-5"
               >
                 <path
                   stroke-linecap="round"
@@ -1150,7 +1337,7 @@
               </svg>
             </span>
             <span
-              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-9 right-0 bg-black text-white rounded-lg m-1 p-1"
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 bg-black text-white rounded-md m-1 p-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1158,7 +1345,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-5 h-5"
               >
                 <path
                   stroke-linecap="round"
@@ -1168,68 +1355,64 @@
               </svg>
             </span>
             <span
-              class="opacity-100 group-hover:opacity-0 duration-500 bg-opacity-60 absolute bottom-24 right-0 bg-black text-white rounded-lg m-1 p-1 text-xs"
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-md m-1 p-1 text-xs font-semibold"
+              >6:35</span
             >
-              15:31
-            </span>
-
-            <div class="flex items-start mt-3">
-              <img
-                class="rounded-full mr-3"
-                src="http://placekitten.com/40/40"
-                alt=""
-              />
-              <div>
-                <span class="font-semibold text-gray-800">Awesome video</span>
-                <div class="mt-1 flex items-center">
-                  <span class="text-gray-600 mr-2">Awesome channel</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    fill-opacity="0.50"
-                    class="w-5 h-5"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <span class="text-gray-600"
-                    >154K views &middot;
-                    <span>5 days ago</span>
-                  </span>
-                </div>
-              </div>
-              <button class="-mt-1 ml-auto p-1">
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="http://placekitten.com/40/40"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title</span>
+              <div class="text-gray-600 mt-1 flex items-center">
+                <span class="pr-[8px]">Channel name</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
+                  viewBox="0 0 20 20"
                   fill="currentColor"
-                  class="w-6 h-6"
+                  fill-opacity="0.50"
+                  class="w-4 h-4"
                 >
                   <path
                     fill-rule="evenodd"
-                    d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                     clip-rule="evenodd"
                   />
                 </svg>
-              </button>
+              </div>
+              <div class="text-gray-600">
+                <span>1K views</span>
+                &middot;
+                <span>1 day ago</span>
+              </div>
             </div>
-          </a>
-        </div>
-        <div class="relative">
-          <a class="mb-7 group" href="#">
+            <button class="-mt-1 ml-auto p-1 text-gray-500 focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="#" class="mb-7 group">
+          <div class="relative">
             <img
-              class="rounded-lg z-0 hover:rounded-none"
-              src="http://placekitten.com/620/400"
-              alt=""
+              class="rounded-lg hover:rounded-none"
+              src="http://placekitten.com/720/404"
             />
             <span
-              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-lg m-1 p-1"
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-md m-1 p-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1237,7 +1420,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-5 h-5"
               >
                 <path
                   stroke-linecap="round"
@@ -1247,7 +1430,7 @@
               </svg>
             </span>
             <span
-              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-9 right-0 bg-black text-white rounded-lg m-1 p-1"
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 bg-black text-white rounded-md m-1 p-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1255,7 +1438,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-5 h-5"
               >
                 <path
                   stroke-linecap="round"
@@ -1265,68 +1448,64 @@
               </svg>
             </span>
             <span
-              class="opacity-100 group-hover:opacity-0 duration-500 bg-opacity-60 absolute bottom-24 right-0 bg-black text-white rounded-lg m-1 p-1 text-xs"
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-md m-1 p-1 text-xs font-semibold"
+              >6:35</span
             >
-              15:31
-            </span>
-
-            <div class="flex items-start mt-3">
-              <img
-                class="rounded-full mr-3"
-                src="http://placekitten.com/40/40"
-                alt=""
-              />
-              <div>
-                <span class="font-semibold text-gray-800">Awesome video</span>
-                <div class="mt-1 flex items-center">
-                  <span class="text-gray-600 mr-2">Awesome channel</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    fill-opacity="0.50"
-                    class="w-5 h-5"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <span class="text-gray-600"
-                    >154K views &middot;
-                    <span>5 days ago</span>
-                  </span>
-                </div>
-              </div>
-              <button class="-mt-1 ml-auto p-1">
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="http://placekitten.com/40/40"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title</span>
+              <div class="text-gray-600 mt-1 flex items-center">
+                <span class="pr-[8px]">Channel name</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
+                  viewBox="0 0 20 20"
                   fill="currentColor"
-                  class="w-6 h-6"
+                  fill-opacity="0.50"
+                  class="w-4 h-4"
                 >
                   <path
                     fill-rule="evenodd"
-                    d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                     clip-rule="evenodd"
                   />
                 </svg>
-              </button>
+              </div>
+              <div class="text-gray-600">
+                <span>1K views</span>
+                &middot;
+                <span>1 day ago</span>
+              </div>
             </div>
-          </a>
-        </div>
-        <div class="relative">
-          <a class="mb-7 group" href="#">
+            <button class="-mt-1 ml-auto p-1 text-gray-500 focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="#" class="mb-7 group">
+          <div class="relative">
             <img
-              class="rounded-lg z-0 hover:rounded-none"
-              src="http://placekitten.com/620/400"
-              alt=""
+              class="rounded-lg hover:rounded-none"
+              src="http://placekitten.com/720/404"
             />
             <span
-              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-lg m-1 p-1"
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-md m-1 p-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1334,7 +1513,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-5 h-5"
               >
                 <path
                   stroke-linecap="round"
@@ -1344,7 +1523,7 @@
               </svg>
             </span>
             <span
-              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-9 right-0 bg-black text-white rounded-lg m-1 p-1"
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 bg-black text-white rounded-md m-1 p-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1352,7 +1531,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-5 h-5"
               >
                 <path
                   stroke-linecap="round"
@@ -1362,68 +1541,64 @@
               </svg>
             </span>
             <span
-              class="opacity-100 group-hover:opacity-0 duration-500 bg-opacity-60 absolute bottom-24 right-0 bg-black text-white rounded-lg m-1 p-1 text-xs"
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-md m-1 p-1 text-xs font-semibold"
+              >6:35</span
             >
-              15:31
-            </span>
-
-            <div class="flex items-start mt-3">
-              <img
-                class="rounded-full mr-3"
-                src="http://placekitten.com/40/40"
-                alt=""
-              />
-              <div>
-                <span class="font-semibold text-gray-800">Awesome video</span>
-                <div class="mt-1 flex items-center">
-                  <span class="text-gray-600 mr-2">Awesome channel</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    fill-opacity="0.50"
-                    class="w-5 h-5"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <span class="text-gray-600"
-                    >154K views &middot;
-                    <span>5 days ago</span>
-                  </span>
-                </div>
-              </div>
-              <button class="-mt-1 ml-auto p-1">
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="http://placekitten.com/40/40"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title</span>
+              <div class="text-gray-600 mt-1 flex items-center">
+                <span class="pr-[8px]">Channel name</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
+                  viewBox="0 0 20 20"
                   fill="currentColor"
-                  class="w-6 h-6"
+                  fill-opacity="0.50"
+                  class="w-4 h-4"
                 >
                   <path
                     fill-rule="evenodd"
-                    d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                     clip-rule="evenodd"
                   />
                 </svg>
-              </button>
+              </div>
+              <div class="text-gray-600">
+                <span>1K views</span>
+                &middot;
+                <span>1 day ago</span>
+              </div>
             </div>
-          </a>
-        </div>
-        <div class="relative">
-          <a class="mb-7 group" href="#">
+            <button class="-mt-1 ml-auto p-1 text-gray-500 focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="#" class="mb-7 group">
+          <div class="relative">
             <img
-              class="rounded-lg z-0 hover:rounded-none"
-              src="http://placekitten.com/620/400"
-              alt=""
+              class="rounded-lg hover:rounded-none"
+              src="http://placekitten.com/720/404"
             />
             <span
-              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-lg m-1 p-1"
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-md m-1 p-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1431,7 +1606,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-5 h-5"
               >
                 <path
                   stroke-linecap="round"
@@ -1441,7 +1616,7 @@
               </svg>
             </span>
             <span
-              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-9 right-0 bg-black text-white rounded-lg m-1 p-1"
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 bg-black text-white rounded-md m-1 p-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1449,7 +1624,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-5 h-5"
               >
                 <path
                   stroke-linecap="round"
@@ -1459,68 +1634,64 @@
               </svg>
             </span>
             <span
-              class="opacity-100 group-hover:opacity-0 duration-500 bg-opacity-60 absolute bottom-24 right-0 bg-black text-white rounded-lg m-1 p-1 text-xs"
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-md m-1 p-1 text-xs font-semibold"
+              >6:35</span
             >
-              15:31
-            </span>
-
-            <div class="flex items-start mt-3">
-              <img
-                class="rounded-full mr-3"
-                src="http://placekitten.com/40/40"
-                alt=""
-              />
-              <div>
-                <span class="font-semibold text-gray-800">Awesome video</span>
-                <div class="mt-1 flex items-center">
-                  <span class="text-gray-600 mr-2">Awesome channel</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    fill-opacity="0.50"
-                    class="w-5 h-5"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <span class="text-gray-600"
-                    >154K views &middot;
-                    <span>5 days ago</span>
-                  </span>
-                </div>
-              </div>
-              <button class="-mt-1 ml-auto p-1">
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="http://placekitten.com/40/40"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title</span>
+              <div class="text-gray-600 mt-1 flex items-center">
+                <span class="pr-[8px]">Channel name</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
+                  viewBox="0 0 20 20"
                   fill="currentColor"
-                  class="w-6 h-6"
+                  fill-opacity="0.50"
+                  class="w-4 h-4"
                 >
                   <path
                     fill-rule="evenodd"
-                    d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                     clip-rule="evenodd"
                   />
                 </svg>
-              </button>
+              </div>
+              <div class="text-gray-600">
+                <span>1K views</span>
+                &middot;
+                <span>1 day ago</span>
+              </div>
             </div>
-          </a>
-        </div>
-        <div class="relative">
-          <a class="mb-7 group" href="#">
+            <button class="-mt-1 ml-auto p-1 text-gray-500 focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="#" class="mb-7 group">
+          <div class="relative">
             <img
-              class="rounded-lg z-0 hover:rounded-none"
-              src="http://placekitten.com/620/400"
-              alt=""
+              class="rounded-lg hover:rounded-none"
+              src="http://placekitten.com/720/404"
             />
             <span
-              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-lg m-1 p-1"
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-md m-1 p-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1528,7 +1699,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-5 h-5"
               >
                 <path
                   stroke-linecap="round"
@@ -1538,7 +1709,7 @@
               </svg>
             </span>
             <span
-              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-9 right-0 bg-black text-white rounded-lg m-1 p-1"
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 bg-black text-white rounded-md m-1 p-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1546,7 +1717,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-5 h-5"
               >
                 <path
                   stroke-linecap="round"
@@ -1556,68 +1727,64 @@
               </svg>
             </span>
             <span
-              class="opacity-100 group-hover:opacity-0 duration-500 bg-opacity-60 absolute bottom-24 right-0 bg-black text-white rounded-lg m-1 p-1 text-xs"
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-md m-1 p-1 text-xs font-semibold"
+              >6:35</span
             >
-              15:31
-            </span>
-
-            <div class="flex items-start mt-3">
-              <img
-                class="rounded-full mr-3"
-                src="http://placekitten.com/40/40"
-                alt=""
-              />
-              <div>
-                <span class="font-semibold text-gray-800">Awesome video</span>
-                <div class="mt-1 flex items-center">
-                  <span class="text-gray-600 mr-2">Awesome channel</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    fill-opacity="0.50"
-                    class="w-5 h-5"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <span class="text-gray-600"
-                    >154K views &middot;
-                    <span>5 days ago</span>
-                  </span>
-                </div>
-              </div>
-              <button class="-mt-1 ml-auto p-1">
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="http://placekitten.com/40/40"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title</span>
+              <div class="text-gray-600 mt-1 flex items-center">
+                <span class="pr-[8px]">Channel name</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
+                  viewBox="0 0 20 20"
                   fill="currentColor"
-                  class="w-6 h-6"
+                  fill-opacity="0.50"
+                  class="w-4 h-4"
                 >
                   <path
                     fill-rule="evenodd"
-                    d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                     clip-rule="evenodd"
                   />
                 </svg>
-              </button>
+              </div>
+              <div class="text-gray-600">
+                <span>1K views</span>
+                &middot;
+                <span>1 day ago</span>
+              </div>
             </div>
-          </a>
-        </div>
-        <div class="relative">
-          <a class="mb-7 group" href="#">
+            <button class="-mt-1 ml-auto p-1 text-gray-500 focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="#" class="mb-7 group">
+          <div class="relative">
             <img
-              class="rounded-lg z-0 hover:rounded-none"
-              src="http://placekitten.com/620/400"
-              alt=""
+              class="rounded-lg hover:rounded-none"
+              src="http://placekitten.com/720/404"
             />
             <span
-              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-lg m-1 p-1"
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-md m-1 p-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1625,7 +1792,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-5 h-5"
               >
                 <path
                   stroke-linecap="round"
@@ -1635,7 +1802,7 @@
               </svg>
             </span>
             <span
-              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-9 right-0 bg-black text-white rounded-lg m-1 p-1"
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 bg-black text-white rounded-md m-1 p-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1643,7 +1810,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-5 h-5"
               >
                 <path
                   stroke-linecap="round"
@@ -1653,68 +1820,64 @@
               </svg>
             </span>
             <span
-              class="opacity-100 group-hover:opacity-0 duration-500 bg-opacity-60 absolute bottom-24 right-0 bg-black text-white rounded-lg m-1 p-1 text-xs"
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-md m-1 p-1 text-xs font-semibold"
+              >6:35</span
             >
-              15:31
-            </span>
-
-            <div class="flex items-start mt-3">
-              <img
-                class="rounded-full mr-3"
-                src="http://placekitten.com/40/40"
-                alt=""
-              />
-              <div>
-                <span class="font-semibold text-gray-800">Awesome video</span>
-                <div class="mt-1 flex items-center">
-                  <span class="text-gray-600 mr-2">Awesome channel</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    fill-opacity="0.50"
-                    class="w-5 h-5"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <span class="text-gray-600"
-                    >154K views &middot;
-                    <span>5 days ago</span>
-                  </span>
-                </div>
-              </div>
-              <button class="-mt-1 ml-auto p-1">
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="http://placekitten.com/40/40"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title</span>
+              <div class="text-gray-600 mt-1 flex items-center">
+                <span class="pr-[8px]">Channel name</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
+                  viewBox="0 0 20 20"
                   fill="currentColor"
-                  class="w-6 h-6"
+                  fill-opacity="0.50"
+                  class="w-4 h-4"
                 >
                   <path
                     fill-rule="evenodd"
-                    d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                     clip-rule="evenodd"
                   />
                 </svg>
-              </button>
+              </div>
+              <div class="text-gray-600">
+                <span>1K views</span>
+                &middot;
+                <span>1 day ago</span>
+              </div>
             </div>
-          </a>
-        </div>
-        <div class="relative">
-          <a class="mb-7 group" href="#">
+            <button class="-mt-1 ml-auto p-1 text-gray-500 focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="#" class="mb-7 group">
+          <div class="relative">
             <img
-              class="rounded-lg z-0 hover:rounded-none"
-              src="http://placekitten.com/620/400"
-              alt=""
+              class="rounded-lg hover:rounded-none"
+              src="http://placekitten.com/720/404"
             />
             <span
-              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-lg m-1 p-1"
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-md m-1 p-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1722,7 +1885,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-5 h-5"
               >
                 <path
                   stroke-linecap="round"
@@ -1732,7 +1895,7 @@
               </svg>
             </span>
             <span
-              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-9 right-0 bg-black text-white rounded-lg m-1 p-1"
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 bg-black text-white rounded-md m-1 p-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1740,7 +1903,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-5 h-5"
               >
                 <path
                   stroke-linecap="round"
@@ -1750,68 +1913,64 @@
               </svg>
             </span>
             <span
-              class="opacity-100 group-hover:opacity-0 duration-500 bg-opacity-60 absolute bottom-24 right-0 bg-black text-white rounded-lg m-1 p-1 text-xs"
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-md m-1 p-1 text-xs font-semibold"
+              >6:35</span
             >
-              15:31
-            </span>
-
-            <div class="flex items-start mt-3">
-              <img
-                class="rounded-full mr-3"
-                src="http://placekitten.com/40/40"
-                alt=""
-              />
-              <div>
-                <span class="font-semibold text-gray-800">Awesome video</span>
-                <div class="mt-1 flex items-center">
-                  <span class="text-gray-600 mr-2">Awesome channel</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    fill-opacity="0.50"
-                    class="w-5 h-5"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <span class="text-gray-600"
-                    >154K views &middot;
-                    <span>5 days ago</span>
-                  </span>
-                </div>
-              </div>
-              <button class="-mt-1 ml-auto p-1">
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="http://placekitten.com/40/40"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title</span>
+              <div class="text-gray-600 mt-1 flex items-center">
+                <span class="pr-[8px]">Channel name</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
+                  viewBox="0 0 20 20"
                   fill="currentColor"
-                  class="w-6 h-6"
+                  fill-opacity="0.50"
+                  class="w-4 h-4"
                 >
                   <path
                     fill-rule="evenodd"
-                    d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                     clip-rule="evenodd"
                   />
                 </svg>
-              </button>
+              </div>
+              <div class="text-gray-600">
+                <span>1K views</span>
+                &middot;
+                <span>1 day ago</span>
+              </div>
             </div>
-          </a>
-        </div>
-        <div class="relative">
-          <a class="mb-7 group" href="#">
+            <button class="-mt-1 ml-auto p-1 text-gray-500 focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="#" class="mb-7 group">
+          <div class="relative">
             <img
-              class="rounded-lg z-0 hover:rounded-none"
-              src="http://placekitten.com/620/400"
-              alt=""
+              class="rounded-lg hover:rounded-none"
+              src="http://placekitten.com/720/404"
             />
             <span
-              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-lg m-1 p-1"
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-md m-1 p-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1819,7 +1978,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-5 h-5"
               >
                 <path
                   stroke-linecap="round"
@@ -1829,7 +1988,7 @@
               </svg>
             </span>
             <span
-              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-9 right-0 bg-black text-white rounded-lg m-1 p-1"
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 bg-black text-white rounded-md m-1 p-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -1837,7 +1996,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-6 h-6"
+                class="w-5 h-5"
               >
                 <path
                   stroke-linecap="round"
@@ -1847,59 +2006,986 @@
               </svg>
             </span>
             <span
-              class="opacity-100 group-hover:opacity-0 duration-500 bg-opacity-60 absolute bottom-24 right-0 bg-black text-white rounded-lg m-1 p-1 text-xs"
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-md m-1 p-1 text-xs font-semibold"
+              >6:35</span
             >
-              15:31
-            </span>
-
-            <div class="flex items-start mt-3">
-              <img
-                class="rounded-full mr-3"
-                src="http://placekitten.com/40/40"
-                alt=""
-              />
-              <div>
-                <span class="font-semibold text-gray-800">Awesome video</span>
-                <div class="mt-1 flex items-center">
-                  <span class="text-gray-600 mr-2">Awesome channel</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    fill-opacity="0.50"
-                    class="w-5 h-5"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </div>
-                <div>
-                  <span class="text-gray-600"
-                    >154K views &middot;
-                    <span>5 days ago</span>
-                  </span>
-                </div>
-              </div>
-              <button class="-mt-1 ml-auto p-1">
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="http://placekitten.com/40/40"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title</span>
+              <div class="text-gray-600 mt-1 flex items-center">
+                <span class="pr-[8px]">Channel name</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
+                  viewBox="0 0 20 20"
                   fill="currentColor"
-                  class="w-6 h-6"
+                  fill-opacity="0.50"
+                  class="w-4 h-4"
                 >
                   <path
                     fill-rule="evenodd"
-                    d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
                     clip-rule="evenodd"
                   />
                 </svg>
-              </button>
+              </div>
+              <div class="text-gray-600">
+                <span>1K views</span>
+                &middot;
+                <span>1 day ago</span>
+              </div>
             </div>
-          </a>
-        </div>
+            <button class="-mt-1 ml-auto p-1 text-gray-500 focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="#" class="mb-7 group">
+          <div class="relative">
+            <img
+              class="rounded-lg hover:rounded-none"
+              src="http://placekitten.com/720/404"
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-md m-1 p-1 text-xs font-semibold"
+              >6:35</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="http://placekitten.com/40/40"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title</span>
+              <div class="text-gray-600 mt-1 flex items-center">
+                <span class="pr-[8px]">Channel name</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  fill-opacity="0.50"
+                  class="w-4 h-4"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="text-gray-600">
+                <span>1K views</span>
+                &middot;
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button class="-mt-1 ml-auto p-1 text-gray-500 focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="#" class="mb-7 group">
+          <div class="relative">
+            <img
+              class="rounded-lg hover:rounded-none"
+              src="http://placekitten.com/720/404"
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-md m-1 p-1 text-xs font-semibold"
+              >6:35</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="http://placekitten.com/40/40"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title</span>
+              <div class="text-gray-600 mt-1 flex items-center">
+                <span class="pr-[8px]">Channel name</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  fill-opacity="0.50"
+                  class="w-4 h-4"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="text-gray-600">
+                <span>1K views</span>
+                &middot;
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button class="-mt-1 ml-auto p-1 text-gray-500 focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="#" class="mb-7 group">
+          <div class="relative">
+            <img
+              class="rounded-lg hover:rounded-none"
+              src="http://placekitten.com/720/404"
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-md m-1 p-1 text-xs font-semibold"
+              >6:35</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="http://placekitten.com/40/40"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title</span>
+              <div class="text-gray-600 mt-1 flex items-center">
+                <span class="pr-[8px]">Channel name</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  fill-opacity="0.50"
+                  class="w-4 h-4"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="text-gray-600">
+                <span>1K views</span>
+                &middot;
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button class="-mt-1 ml-auto p-1 text-gray-500 focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="#" class="mb-7 group">
+          <div class="relative">
+            <img
+              class="rounded-lg hover:rounded-none"
+              src="http://placekitten.com/720/404"
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-md m-1 p-1 text-xs font-semibold"
+              >6:35</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="http://placekitten.com/40/40"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title</span>
+              <div class="text-gray-600 mt-1 flex items-center">
+                <span class="pr-[8px]">Channel name</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  fill-opacity="0.50"
+                  class="w-4 h-4"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="text-gray-600">
+                <span>1K views</span>
+                &middot;
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button class="-mt-1 ml-auto p-1 text-gray-500 focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="#" class="mb-7 group">
+          <div class="relative">
+            <img
+              class="rounded-lg hover:rounded-none"
+              src="http://placekitten.com/720/404"
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-md m-1 p-1 text-xs font-semibold"
+              >6:35</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="http://placekitten.com/40/40"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title</span>
+              <div class="text-gray-600 mt-1 flex items-center">
+                <span class="pr-[8px]">Channel name</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  fill-opacity="0.50"
+                  class="w-4 h-4"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="text-gray-600">
+                <span>1K views</span>
+                &middot;
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button class="-mt-1 ml-auto p-1 text-gray-500 focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="#" class="mb-7 group">
+          <div class="relative">
+            <img
+              class="rounded-lg hover:rounded-none"
+              src="http://placekitten.com/720/404"
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-md m-1 p-1 text-xs font-semibold"
+              >6:35</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="http://placekitten.com/40/40"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title</span>
+              <div class="text-gray-600 mt-1 flex items-center">
+                <span class="pr-[8px]">Channel name</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  fill-opacity="0.50"
+                  class="w-4 h-4"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="text-gray-600">
+                <span>1K views</span>
+                &middot;
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button class="-mt-1 ml-auto p-1 text-gray-500 focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="#" class="mb-7 group">
+          <div class="relative">
+            <img
+              class="rounded-lg hover:rounded-none"
+              src="http://placekitten.com/720/404"
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-md m-1 p-1 text-xs font-semibold"
+              >6:35</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="http://placekitten.com/40/40"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title</span>
+              <div class="text-gray-600 mt-1 flex items-center">
+                <span class="pr-[8px]">Channel name</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  fill-opacity="0.50"
+                  class="w-4 h-4"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="text-gray-600">
+                <span>1K views</span>
+                &middot;
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button class="-mt-1 ml-auto p-1 text-gray-500 focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="#" class="mb-7 group">
+          <div class="relative">
+            <img
+              class="rounded-lg hover:rounded-none"
+              src="http://placekitten.com/720/404"
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-md m-1 p-1 text-xs font-semibold"
+              >6:35</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="http://placekitten.com/40/40"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title</span>
+              <div class="text-gray-600 mt-1 flex items-center">
+                <span class="pr-[8px]">Channel name</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  fill-opacity="0.50"
+                  class="w-4 h-4"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="text-gray-600">
+                <span>1K views</span>
+                &middot;
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button class="-mt-1 ml-auto p-1 text-gray-500 focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="#" class="mb-7 group">
+          <div class="relative">
+            <img
+              class="rounded-lg hover:rounded-none"
+              src="http://placekitten.com/720/404"
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-md m-1 p-1 text-xs font-semibold"
+              >6:35</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="http://placekitten.com/40/40"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title</span>
+              <div class="text-gray-600 mt-1 flex items-center">
+                <span class="pr-[8px]">Channel name</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  fill-opacity="0.50"
+                  class="w-4 h-4"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="text-gray-600">
+                <span>1K views</span>
+                &middot;
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button class="-mt-1 ml-auto p-1 text-gray-500 focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
+        <a href="#" class="mb-7 group">
+          <div class="relative">
+            <img
+              class="rounded-lg hover:rounded-none"
+              src="http://placekitten.com/720/404"
+            />
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-0 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-0 group-hover:opacity-100 bg-opacity-60 absolute top-8 right-0 bg-black text-white rounded-md m-1 p-1"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"
+                />
+              </svg>
+            </span>
+            <span
+              class="opacity-100 group-hover:opacity-0 duration-500 absolute bottom-0 right-0 bg-black text-white rounded-md m-1 p-1 text-xs font-semibold"
+              >6:35</span
+            >
+          </div>
+          <div class="flex items-start mt-3">
+            <img
+              src="http://placekitten.com/40/40"
+              class="mr-3 rounded-full w-9 h-9"
+              alt=""
+            />
+            <div class="text-sm">
+              <span class="font-semibold text-gray-800">Video title</span>
+              <div class="text-gray-600 mt-1 flex items-center">
+                <span class="pr-[8px]">Channel name</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  fill-opacity="0.50"
+                  class="w-4 h-4"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="text-gray-600">
+                <span>1K views</span>
+                &middot;
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <button class="-mt-1 ml-auto p-1 text-gray-500 focus:outline-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+        </a>
       </div>
     </main>
   </body>
